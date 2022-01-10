@@ -3,7 +3,7 @@ A Telegram bot that can stream Telegram files to users over HTTP.
 
 ## Setup
 Install dependencies (see [requirements.txt](/requirements.txt)), configure
-environment variables (see below) and run with `python3 -m tgfilestream`.
+environment variables (see below) and run with `python3 -m btelethon2.0`.
 
 A reverse proxy is recommended to add TLS. When using a reverse proxy, keep
 `HOST` as-is, but add the publicly accessible URL to `PUBLIC_URL`. The URL
@@ -12,10 +12,10 @@ should include the protocol, e.g. `https://example.com`.
 ## You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
 ### With Bot Token & Session String
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TGExplore/TG-Files-to-Link)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/blendersb/telethon2.0)
 
 ### Without Session String
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TGExplore/TG-Files-to-Link/tree/Merging)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/blendersb/telethon2.0/tree/Merging)
 
 Watch our YouTube video for more details - [How To Create Your Own Telegram File To Link Generation Bot](http://www.youtube.com/watch?v=H-bEuLjwdfY)
 
