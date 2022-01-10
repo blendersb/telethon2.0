@@ -10,7 +10,7 @@ except IOError:
 setuptools.setup(
     name="tgfilestream",
     version=__version__,
-    url="https://mau.dev/tulir/tgfilestream",
+    url="",
 
     author="Tulir Asokan",
     author_email="tulir@maunium.net",
@@ -42,6 +42,6 @@ setuptools.setup(
     ],
     entry_points="""
         [console_scripts]
-        tgfilestream=tgfilestream.__main__:main
+        btelethon2.0=tgfilestream.__main__:main
     """,
 )
